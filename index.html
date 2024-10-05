@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styles for the portfolio */
+        .project {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Santhosh's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-container">
+            <!-- Static Image with a Round Border -->
+            <img src="./images/Photo.jpg" alt="Profile Photo" class="profile-pic">
+            <p><strong><em>Hi! I'm Santhosh, a native of Kumbakonam. I hold a Post Graduate degree in Computer Science and am an aspiring Web and Software Developer with a strong foundation in HTML, CSS, JavaScript, Java and SQL. I'm actively seeking opportunities to further develop my skills and contribute to exciting projects.</em></strong></p>        
+        </div>
+    </section>
+    
+    <section id="skills" class="common-background">
+        <h2>Skills</h2>
+        <ul>
+            <strong><li><h3>Programming Languages:</h3>
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
+            </li>
+            <li><h3>Web Technologies:</h3> 
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Reactjs</li>
+              </ul>
+            </li>
+            <li><h3>Back-End Technologies:</h3>
+              <ul>
+                <li>Node.js</li>
+              </ul>
+            </li>
+            <li><h3>Databases:</h3>
+              <ul>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </li>
+            <li><h3>Tools:</h3>
+              <ul>
+                <li>Git, GitHub</li>
+                <li>Postman</li>
+                <li>Visual Studio Code (VSCode)</li>
+                <li>Eclipse</li>
+                <li>MS Office (Word, Excel, PowerPoint)</li>
+              </ul>
+            </li></strong>
+          </ul>
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+          </ul>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Master of Science in Computer Science(2022-2024)</strong></br>
+                <em>Swami Dayananda College of Arts and Science, Manjakkudi.</em>
+                    Percentage - 72.5%</p>
+               <p><strong>Bachelor of Science in Computer Science(2019-2022)</strong></br>
+                <em>SASTRA Deemed to be University(SRC), Kumbakonam.</em>
+                    Percentage - 63.9%</p> 
+        <h2>Certifications</h2>
+        <ol>
+             <li> 
+              <p>Web Development Bootcamp</p>
+              <p>Organization: Udemy</p> 
+              <p>Description: Completed a comprehensive program covering HTML, CSS, JavaScript and backend Development using Node.js.</p>
+              </li> 
+             <li>          
+              <p>Java Programming</p>
+              <p>Issued Organization: Udemy</p>
+              <p>Description: Learned the fundamentals of Java programming, focusing on object-oriented principles, control flow and basic data structures.</p>
+            </li>  
+        </ol>
+    </section>
+
+    <section id="projects" >
+        <h2 class="proHeading">Projects</h2>
+        <div class="project">
+            <h3>Crime Rate Prediction System</h3>
+            <p><strong>A deep learning model to predict crime hotspots, improving safety for women. The aim of this project is to make crime prediction using the features present in the dataset. The dataset is extracted from the official sites. With the help of machine learning algorithm, using python as core we can predict the type of crime which will occur in a particular area. Crime hot spot prediction is an important task in law enforcement that can help prevent crime and improve public safety. Decision Tree is a machine learning algorithm that has been widely used for this task due to its ability to effectively separate positive and negative examples. The system involves data pre-processing, feature selection, model training, model evaluation, hyperparameter tuning, and prediction.</strong></p> 
+            <h3>System Specifications</h3>
+            <ul>
+              <li>Server Side : Python 3.7.4(64-bit) or (32-bit)</li>
+              <li>Client Side : HTML, CSS, Bootstrap</li>
+              <li>IDE         : Flask 1.1.1</li>
+              <li>Back end    : MySQL 5.</li>
+              <li>Server      : Wampserver 2i</li>
+              <li>DL DLL      : TensorFlow, Pandas, SiKit Learn</li>
+            </ul>
+            
+        </div>
+        <div class="project">
+          <h3>Video Conference Project</h3>
+          <p><strong>The Video Conference Project enables users to register, log in and join video calls with features such as viewing up to Five participants and visualizing active speakers. The Client side handles user interface interactions, while the server side manages authentication, profile updates and call information are securely stored in the backend. The project was developed using IDE for code management, with the server hosting real-time connections and handling video call sessions efficiently.</strong></p>
+          <ul>
+           <li>Server Side : Node.js</li>
+           <li>Client Side : HTML, CSS, JavaScript</li>
+           <li>IDE         : VSCode</li>
+           <li>Backend     : MongoDB</li>
+          </ul>
+      </div>
+        <div class="project">
+            <h3>Non-Contact AC Detector</h3>
+            <p><strong>A Detector to identify the presence of AC voltage in electrical wires without direct contact. Non-contact voltage testers work by sensing a very small amount of current that is capacitively coupled from the live  circuit to the tester and back to ground 
+              Non-contact voltage tester light up when they detect this current without needing to make direct contact. A built-in sensor at the tip of the tester detects the presence of voltage when touching a conductor, outlet, or supply cord. By holding the tool, you are the ground reference through capacitive coupling. when the tip glows red and the unit beeps, you know voltage is present.</strong></p>
+              <ul>
+                <h3>Components used</h3>
+                <li>IC 4017</li>
+                <li>BC 547 Transistor </li>
+                <li>Resistor 1k,220 ohm</li>
+                <li>Buzzer </li>
+                <li>LED</li>
+                <li>9V Battery</li>
+                <li>Antenna</li>
+                <li>Switch</li>
+              </ul>
+        </div>
+      
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing cricket and volleyball</li>
+            <li>Watching sports</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 class="contact">Contact</h2>
+        <p>Email: <span id="contact-email"></span></p>
+        <p>Phone:+91 <span id="contact-phone"></span></p>
+        <p>Address: 152 Sivan kovil street, Koliyakudi, Kumbakonam, Thanjavur, Tamil Nadu - 612 402</p>
+    </section>
+<section id="email-form">
+  <form action="https://formspree.io/f/xldrqllv" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+     <label for="message">Message:</label>
+     <textarea id="message" name="message" required></textarea>
+
+     <button type="submit">Send</button>
+</form>
+</section>
+<footer>
+  <div class="footer-content">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/santhosh-r-2409882a5" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/SanthoshRamakrishnan27" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+    <script src="config.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+            const emailElement = document.getElementById('contact-email');
+            const phoneElement = document.getElementById('contact-phone');
+
+            if (emailElement) {
+                emailElement.textContent = config.contactEmail;
+            }
+
+            if (phoneElement) {
+                phoneElement.textContent = config.contactPhone;
+            }
+        });  
+    </script>
+</body>
+</html>
